@@ -1,0 +1,5 @@
+set idfile /var/.monit.id
+set daemon 120
+
+set statefile /var/.monit.state
+include /etc/monit.d/*.cfg
